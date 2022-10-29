@@ -12,9 +12,15 @@ function Home() {
           <p>
             A full stack web developer with a passion for learning and creating.
           </p>
-          <MailIcon />
-          <LinkedInIcon />
-          <GitHubIcon />
+          <a href="https://github.com/HolakoNoob">
+            <GitHubIcon />
+          </a>
+          <a href="www.linkedin.com/in/marouane-rguibi">
+            <LinkedInIcon />
+          </a>
+          <a href="mailto: rg.marouane@gmail.com">
+            <MailIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
