@@ -15,7 +15,7 @@ function Home() {
           <a href="https://github.com/HolakoNoob">
             <GitHubIcon />
           </a>
-          <a href="www.linkedin.com/in/marouane-rguibi">
+          <a href="https://www.linkedin.com/in/marouane-rguibi">
             <LinkedInIcon />
           </a>
           <a href="mailto: rg.marouane@gmail.com">
