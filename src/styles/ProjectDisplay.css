@@ -27,3 +27,8 @@
     font-size: 60px;
     color: #3e497a;
 }
+
+.urls {
+    display: flex;
+    gap: 35px;
+}

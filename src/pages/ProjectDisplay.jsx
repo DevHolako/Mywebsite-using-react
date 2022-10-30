@@ -1,7 +1,8 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjecList";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import PlayCircleFilledWhiteIcon from "@mui/icons-material/PlayCircleFilledWhite";
 import "./../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -10,13 +11,18 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} />
+      <img src={project.image} alt="project pic" />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <a href={project.url}>
-        <GitHubIcon />
-      </a>
+      <div className="urls">
+        <a href={project.url} target="_blank" rel="noreferrer">
+          <GitHubIcon />
+        </a>
+        <a href={project.demo} target="_blank" rel="noreferrer">
+          <PlayCircleFilledWhiteIcon />
+        </a>
+      </div>
     </div>
   );
 }

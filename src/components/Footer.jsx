@@ -7,13 +7,25 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a href="https://github.com/HolakoNoob">
+        <a
+          href="https://github.com/HolakoNoob"
+          target="_blank"
+          rel="noreferrer"
+        >
           <GitHubIcon />
         </a>
-        <a href="https://www.linkedin.com/in/marouane-rguibi">
+        <a
+          href="https://www.linkedin.com/in/marouane-rguibi"
+          target="_blank"
+          rel="noreferrer"
+        >
           <LinkedInIcon />
         </a>
-        <a href="mailto: rg.marouane@gmail.com">
+        <a
+          href="mailto: rg.marouane@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <MailIcon />
         </a>
       </div>

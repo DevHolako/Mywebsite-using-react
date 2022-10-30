@@ -8,17 +8,20 @@ export const ProjectList = [
     image: Proj1,
     skills: "JavaScript,HTML,CSS",
     url: "https://github.com/HolakoNoob/rock-paper-scissors ",
+    demo: "https://rock-paper-scissors-e7206.web.app/",
   },
   {
     name: "Youtube Downloader Gui",
     image: Proj2,
     skills: "Python,Youtube API",
     url: "https://github.com/HolakoNoob/Youtube-Downloader-GUI",
+    demo: "https://github.com/HolakoNoob/Youtube-Downloader-GUI/releases",
   },
   {
     name: "Python Automating Folder",
     image: Proj3,
     skills: "Python",
     url: "https://github.com/HolakoNoob/pyAutomatingFolder",
+    demo: "https://github.com/HolakoNoob/pyAutomatingFolder/releases/tag/app",
   },
 ];
