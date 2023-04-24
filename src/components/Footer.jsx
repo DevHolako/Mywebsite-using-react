@@ -29,7 +29,7 @@ function Footer() {
           <MailIcon />
         </a>
       </div>
-      <p>&copy; 2022 holakonoob.tk</p>
+      <p>&copy; {new Date().getFullYear()} Holako.tech</p>
     </div>
   );
 }
