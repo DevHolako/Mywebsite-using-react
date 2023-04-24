@@ -8,7 +8,7 @@ export const ProjectList = [
     image: Proj1,
     skills: "JavaScript,HTML,CSS",
     url: "https://github.com/HolakoNoob/rock-paper-scissors ",
-    demo: "https://rock-paper-scissors-e7206.web.app/",
+    demo: "http://game.holako.tech",
   },
   {
     name: "Youtube Downloader Gui",
